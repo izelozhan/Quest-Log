@@ -5,7 +5,7 @@ body {
   height: 100vh;
   width: 100vw;
   font-family: $fontFamily;
-  background-color: $veryLightGreen;
+  background-color: $veryLightPurple;
   text-transform: capitalize;
 }
 
@@ -34,14 +34,14 @@ h1 {
 
     h2.title {
       font-size: 31.42px;
-      color: $green;
+      color: $cuteBlue;
       padding: 0 0 0 1rem;
     }
   }
 
   .burgerContainer {
     content: "";
-    background-color: $green;
+    background-color: $cuteBlue;
     position: absolute;
     right: (-35px / 2);
     top: calc(9rem / 1.15);
@@ -63,7 +63,7 @@ h1 {
 
     .burgerMenu {
       content: "";
-      background-color: $green;
+      background-color: $cuteBlue;
       position: relative;
       z-index: 1;
       width: 20px;
@@ -106,7 +106,7 @@ h1 {
     top: (35px / 2);
     z-index: 0;
     width: calc(6rem + 15rem);
-    background-color: $lightGrey;
+    background-color: $cuteBlue;
     height: 2px;
     transition: 0.5s all;
   }
